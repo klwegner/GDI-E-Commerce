@@ -1,5 +1,8 @@
 /* 
 #9E7676
+#815B5B
+#594545
+#FFF8EA
  */
 
 body {
@@ -9,8 +12,18 @@ body {
 .App {
   text-align: center;
   color:#594545;
+  background-color: #FFF8EA;
 }
 
-#topNav {
-  background-color: #815B5B;
+.navbar {
+  border-bottom: 5px solid black;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: large;
+}
+
+footer {
+  border-top:5px solid black;
 }

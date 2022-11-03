@@ -16,3 +16,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+//index.js is what connects index.html with App.js jsx by creating an element in the root id in index.html
