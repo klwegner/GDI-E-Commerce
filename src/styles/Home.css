@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/basis-grotesque-pro');
+
+
+#home {
+    font-family: 'Basis Grotesque Pro';
+  font-style: normal;
+  font-weight: 500;
+  color: #080B13;
+  justify-content: center;
+  text-align: center;
+
+}
+.homeTop h1 {
+
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 140%;
+  text-align: center;
+  justify-content: center;
+}
+
+  .secondLevel {
+    margin: 2% 0;
+  }
+  
+  .secondLevel h2{
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  }
+
+  .homeProducts {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:96%;
+    margin: 0 2%;
+  }
+
+

@@ -25,7 +25,7 @@ function App() {
     {/* <h1>Kristen's Shop</h1>
       <h2>My Third Attempt at an E-Commerce App</h2> */}
        
-<Footer />
+{/* <Footer /> */}
 
     </div>
   );

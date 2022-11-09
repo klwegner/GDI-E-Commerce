@@ -6,16 +6,18 @@
  */
 
 body {
-  background-color: #FFF8EA;
+  background-color: #FFFFFF;
 }
 
 .App {
   text-align: center;
-  color:#594545;
-  background-color: #FFF8EA;
+  color:black;
+
 }
 
-.navbar {
+
+
+/* .navbar {
   border-bottom: 5px solid black;
 }
 
@@ -26,4 +28,5 @@ body {
 
 footer {
   border-top:5px solid black;
-}
+} */
+

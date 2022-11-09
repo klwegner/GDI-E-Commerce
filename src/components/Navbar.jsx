@@ -1,22 +1,13 @@
 import logo from "../assets/fablelogo.png";
-
+import "../styles/Navbar.css";
 
 function Navbar() {
-    return(
-        <div id="topNav">
-        {/* <nav class="navbar bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="www.google.com">
-      <img src={logo} alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
-      Kristen's Store
-    </a> */}
- 
-
-    <nav class="navbar navbar-expand-lg">
+  return (
+    <div id="topNav">
+      {/* <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
     <a class="navbar-brand" href="/">
       <img src={logo} alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
-      Kristen's Store
     </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,9 +29,18 @@ function Navbar() {
           </span>
         </div>
       </div>
-    </nav>
-</div>
-    )
+    </nav> */}
+      <div className="logoDiv">
+        <img src={logo} alt="logo"/>
+      </div>
+      <div className="navbarMid">
+        <p>COLLECTIONS</p>
+        <p>CUSTOMIZER</p>
+        <p>SALES</p>
+      </div>
+      <div className="navbarEnd"><p>ITEMS</p></div>
+    </div>
+  );
 }
 
 export default Navbar;
