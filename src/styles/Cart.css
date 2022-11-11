@@ -1,0 +1,14 @@
+#cartPage{
+    display:flex;
+    margin:1% 2%;
+    justify-content: space-between;
+}
+.leftForm {
+    display:flex;
+    flex-direction: column;
+    width:48%;
+}
+.rightOrderSummary{
+
+    width:48%;
+}

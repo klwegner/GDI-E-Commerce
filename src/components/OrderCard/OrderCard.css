@@ -1,0 +1,21 @@
+.orderCard{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.orderCardQuantityInfo{
+display: flex;
+flex-direction: row;
+}
+
+.rightSideOrderCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderCardQuantityInfo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

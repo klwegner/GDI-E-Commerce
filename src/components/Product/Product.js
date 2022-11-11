@@ -1,5 +1,5 @@
-import Foto2 from '../assets/Foto2.png';
-import '../styles/Product.css';
+// import Foto2 from '../assets/Foto2.png';
+import './Product.css';
 
 function Product(props) {
     return(

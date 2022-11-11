@@ -1,0 +1,111 @@
+.productTag {
+
+text-align: left;
+margin:4%;
+
+}
+
+.singleProductImage {
+    /* width:40%; */
+    background-color: #F1F1EF;
+    margin:0%;
+
+}
+.singleProductImage img{
+    margin: 0%;
+}
+
+.productTag{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 60px;
+gap: 16px;
+position: absolute;
+width: 1440px;
+height: 24px;
+left: 0px;
+top: 74px;
+}
+
+.viewItemPage{
+    margin: 4%;
+    display:flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleProductInfo{
+  padding:5%;
+}
+
+.singleProductHeading{
+    width: 163px;
+    height: 38px;
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 135%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.singleProductPrice {
+    width: 70px;
+    height: 38px;
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 135%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.singleProductButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 232px;
+    height: 50px;
+    background: rgba(60, 55, 55, 0.8);
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.singleProductDescriptionHeading{
+    width: 113px;
+    height: 26px;    
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.singleProductDescription {
+    width: 606px;
+    height: 63px;
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

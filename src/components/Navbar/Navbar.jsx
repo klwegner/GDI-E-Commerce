@@ -1,5 +1,5 @@
-import logo from "../assets/fablelogo.png";
-import "../styles/Navbar.css";
+import logo from "../../assets/fablelogo.png";
+import './Navbar.css';
 
 function Navbar() {
   return (

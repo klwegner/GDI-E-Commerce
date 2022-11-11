@@ -1,12 +1,13 @@
-import Navbar from './components/Navbar';
-import './App.css';
+import {BrowserRouter as Router} from "react-router-dom";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import './App.css';
 import Homepage from './pages/Homepage';
 import Cart from './pages/Cart';
 import Profile from './pages/ProfilePage';
 import ViewItem from './pages/ViewItem';
 import Sales from './pages/Sales';
-import Footer from './components/Footer';
+
 
 
 function App() {

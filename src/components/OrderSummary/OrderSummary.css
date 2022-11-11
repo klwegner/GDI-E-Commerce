@@ -1,0 +1,41 @@
+.apply {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 150px;
+height: 50px;
+background: #080B13;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.promoCodeInput{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 24px;
+
+width: 232px;
+height: 50px;
+
+/* White */
+
+background: #FFFFFF;
+/* Secondary */
+
+border: 1px solid #080B13;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

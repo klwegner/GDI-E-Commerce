@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import Product from "../components/Product";
+import Product from "../components/Product/Product.js";
 import {ProductData} from '../utils/ProductData';
 
 function Homepage() {
@@ -15,9 +15,9 @@ function Homepage() {
               {/* <Product />
               <Product />
               <Product /> */}
-        {ProductData.map((item, index) => (
-            <Product data={item}/>
-        ))
+        {ProductData.map((item) =>
+            <Product data={item} key={item.id}/>
+        )
         }
         
         </div>
