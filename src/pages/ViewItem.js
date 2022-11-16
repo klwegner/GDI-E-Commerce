@@ -5,7 +5,7 @@ function ViewItem() {
   return (
     <div> 
       <div className="productTag">
-        <h2>Fable of Klassik -- Jacket</h2>
+        <div><h2>Fable of Klassik</h2></div> <div><h2>—</h2></div> <div><h2>Jacket</h2></div>
       </div>
       <div className="viewItemPage">
         <div className="singleProductImage">

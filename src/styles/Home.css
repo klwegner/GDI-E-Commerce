@@ -10,6 +10,12 @@
   text-align: center;
 
 }
+
+.homeProducts img {
+  height:200%;
+  width:200%;
+}
+
 .homeTop h1 {
 
   font-weight: 500;

@@ -18,7 +18,7 @@ function Form() {
             <button> Payment Card</button>
             <button> Cash on Delivery</button>
         </form>
-{/* need a checkbox */}
+{/* need a checkbox and then add margin above the checkbox*/}
         <p>I agree to the terms of the offer and the loyalty policy</p>
         <button>Place an order</button>
 

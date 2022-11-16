@@ -3,6 +3,10 @@ form{
     flex-direction: column;
 }
 
+.formCon button{
+margin-top:2%;
+}
+
 /* below not working */
 .formCon > input:first-child {
     width:50%;
