@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import "../styles/Home.css";
 import Product from "../components/Product/Product.js";
 import axios from "axios";
-import {Link} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 
 function Homepage() {
   const [product, setProduct] = useState([]);
+  const {} = useParams;
 
   useEffect(() => {
     (async () => {
@@ -30,12 +31,11 @@ function Homepage() {
         <h2>JACKETS KLS</h2>
       </div>
       <div className="homeProducts">
-        {/* <Product />
-              <Product />
-              <Product /> */}
+
         {product.map((item) => (
-            <Link to='/item'>
-          <Product data={item} key={item.id} />
+          //need to pass this item as props
+            <Link to={`/item/${item._id}`}>
+          <Product data={item} key={item._id} />
           </Link>
         ))}
       </div>

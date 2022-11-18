@@ -19,14 +19,10 @@ function App() {
         <Route path="/" element={<Homepage />}/>
         <Route path="/cart" element={<Cart />}/>
         <Route path="/profile" element={<Profile />}/>
-        <Route path="/item" element={<ViewItem />}/>
+        <Route path="/item/:id" element={<ViewItem />}/>
         <Route path="/sales" element={<Sales />}/>
       </Routes>
     </BrowserRouter>
-    {/* <h1>Kristen's Shop</h1>
-      <h2>My Third Attempt at an E-Commerce App</h2> */}
-       
-{/* <Footer /> */}
 
     </div>
   );
